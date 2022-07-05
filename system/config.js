@@ -3,7 +3,7 @@ global.owner = '212690516633'
 // Owner name
 global.owner_name = 'Bella mohamed'
 // Maximum upload file size limit (Default : 250 MB)
-global.max_upload = 500
+global.max_upload = 1000
 // Delay for spamming protection (Default : 3 seconds)
 global.cooldown = 3
 // User Limitation (Default : 10)
