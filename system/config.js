@@ -23,18 +23,18 @@ global.chatai_bid = '164728'
 global.chatai_key = 'MKPsfkgXLZPGrWoH'
 // Global status
 global.status = Object.freeze({
-   wait: Func.texted('bold', 'Processed . . .'),
-   invalid: Func.texted('bold', 'URL is Invalid!'),
-   wrong: Func.texted('bold', 'Wrong format!'),
-   getdata: Func.texted('bold', 'Scraping metadata . . .'),
-   fail: Func.texted('bold', 'Can\'t get metadata!'),
-   error: Func.texted('bold', 'Error occurred!'),
+   wait: Func.texted('bold', 'إنتظر قليلا ... 😌'),
+   invalid: Func.texted('bold', 'الرابط مكاينش 😕'),
+   wrong: Func.texted('bold', 'كتابة خاطئة 😑'),
+   getdata: Func.texted('bold', 'تسنا شوية'),
+   fail: Func.texted('bold', ' 🤣🤣 ملقيت والو هه'),
+   error: Func.texted('bold', 'خطأ 😟'),
    errorF: Func.texted('bold', 'Sorry this feature is in error.'),
-   premium: Func.texted('bold', 'This feature only for premium user.'),
-   owner: Func.texted('bold', 'This command only for owner.'),
+   premium: Func.texted('bold', 'هذه الخاصية متاحة فقط للمستعملين ڤ.آي.بي'),
+   owner: Func.texted('bold', 'هذه الخاصية متاحة فقط الادمن '),
    god: Func.texted('bold', 'This command only for Master'),
-   group: Func.texted('bold', 'This command will only work in groups.'),
-   botAdmin: Func.texted('bold', 'This command will work when I become an admin.'),
+   group: Func.texted('bold', 'هذه الخاصية متاحة فقط داخل المجموعات'),
+   botAdmin: Func.texted('bold', 'هذه الخاصية متاحة فقط عندما أصبح أدمن'),
    admin: Func.texted('bold', 'This command only for group admin.'),
    private: Func.texted('bold', 'Use this command in private chat.')
 })
