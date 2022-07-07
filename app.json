@@ -1,0 +1,18 @@
+{
+  "name": "WOX_MD",
+  "description": "NEOXr ",
+  "repository": "https://github.com/mohamedbella2000/neoxr5",
+  "logo": "https://i.imgur.com/PlyUHYP.jpeg",
+  "keywords": ["bot", "whatsapp", "multi-device", "whatsapp-bot"],
+  "buildpacks": [
+  {
+    "url": "heroku/nodejs"
+  },
+  {
+    "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+  },
+  {
+    "url": "https://github.com/yespark/heroku-imagemagick-buildpack"
+  }  
+ ]
+} 
